@@ -1,0 +1,216 @@
+[
+    {
+        "premise": "A woman in black pants is looking at her cellphone.",
+        "hypothesis": "a woman is looking at her phone",
+        "human1_label": "entailment",
+        "human2_label": "neutral",
+        "human_label": "entailment",
+        "gold_label": "entailment",
+        "system_label": "neutral",
+        "explanation": [
+            "A cellphone is a type of phone, and as the woman is looking at it, the context implies that cellphone and phone must be the same thing",
+            "A woman looking at her phone (cellphone) is part of her description in black pants.",
+            "She is a woman because she is a woman in pants."
+        ],
+        "humans_discussion": [
+            "Human1: It is entailment, because a woman is looking at her phone in both sentences. ",
+            "Human2: Is the phone in the hypothesis is necessarily a cellphone? It could be a landline phone.",
+            "Human1: People rarely look at a landline phone, that's why I think it is the same cellphone.",
+            "Human2: I think it is also true that it is better to consider the general cases. Otherwise, it would be neutral in many cases.",
+            "Human1: I think so too. So it is entailment, right?"
+        ],
+        "human_system_discussion": []
+    },
+    {
+        "premise": "Several black children sit at a table with colorful laptops in front of them.",
+        "hypothesis": "A white dog running in the snow.",
+        "human1_label": "neutral",
+        "human2_label": "contradiction",
+        "human_label": "neutral",
+        "gold_label": "contradiction",
+        "system_label": "neutral",
+        "explanation": [
+            "The subject is either a group of children or a white dog. The location is either a table or a place with snow.",
+            "it would either be childrens or dog,Several black",
+            "A dog running is a separate thought from the children sit."
+        ],
+        "humans_discussion": [
+            "Human1: I think the premise and the hypothesis are telling about different things. That's why I think it is neutral.",
+            "Human2: It is contradiction because the words are semantically contradict each other. For example, black and white, sit and running.",
+            "Human1: You are right in that terms. However, generally, they are totally different situations.",
+            "Human2: I see, you are right."
+        ],
+        "human_system_discussion": []
+    },
+    {
+        "premise": "Two dogs play together on the bed.",
+        "hypothesis": "Dogs laying down on the floor, motionless.",
+        "human1_label": "contradiction",
+        "human2_label": "entailment",
+        "human_label": "contradiction",
+        "gold_label": "contradiction",
+        "system_label": "neutral",
+        "explanation": [
+            "Dogs can't play while laying down motionless.",
+            "If dogs play together on the bed, they are not laying motionless on the floor.",
+            "The dogs cannot play and be laying down at the same time."
+        ],
+        "humans_discussion": [
+            "Human2: Can the dogs be communicating even motionless?",
+            "Human1: I think it is contradiction, because the dogs can be either on the bed or the floor, even if they are communicating motionless.",
+            "Human2: Can the entire floor to ba a bed?",
+            "Human1: In some cases that may be true, but generally, bed and floor are different things.",
+            "Human2: That is true."
+        ],
+        "human_system_discussion": []
+    },
+    {
+        "premise": "A man wearing a horned hat poses for a picture.",
+        "hypothesis": "A man wearing a horned hat poses for a photograph",
+        "human1_label": "contradiction",
+        "human2_label": "entailment",
+        "human_label": "entailment",
+        "gold_label": "entailment",
+        "system_label": "neutral",
+        "explanation": [
+            "A picture is a photograph.",
+            "A picture is a photograph.",
+            "Photograph is another word for picture."
+        ],
+        "humans_discussion": [
+            "Human2: I think it is entailment. Because the only difference is picture or photograph, but both mean photography.",
+            "Human1: I think it is contradiction, because a picture could mean a painting. So the man can either pose for a photograph or for a painting.",
+            "Human2: But isn't picture generally mean a photograph? And it is more common to take a picture of a person than to draw a person as a picture, isn't it?",
+            "Human1: You are right."
+        ],
+        "human_system_discussion": []
+    },
+    {
+        "premise": "Two young men in unusual clothing are jumping in a gym",
+        "hypothesis": "Two people are in the gym",
+        "human1_label": "neutral",
+        "human2_label": "entailment",
+        "human_label": "entailment",
+        "gold_label": "entailment",
+        "system_label": "neutral",
+        "explanation": [
+            "If the men are jumping in the gym then they are in the gym.",
+            "Young men are people.",
+            "People is a synonym for young men."
+        ],
+        "humans_discussion": [
+            "Human2: I think it is entailment. Because in both cases there are two people in the gym.",
+            "Human1: I thought it was neutral because two people can be two woman or two old men.",
+            "Human2: You are assuming a situation that is not described in the statement that there may be other people.",
+            "Human1: I think you are correct here."
+        ],
+        "human_system_discussion": []
+    },
+    {
+        "premise": "A town worker working on electrical equipment.",
+        "hypothesis": "The worker is off work for the day.",
+        "human1_label": "contradiction",
+        "human2_label": "neutral",
+        "human_label": "contradiction",
+        "gold_label": "contradiction",
+        "system_label": "neutral",
+        "explanation": [
+            "The worker cannot be working and off work at the same time.",
+            "WORKING AND OFF WORK IS DIFFERENT.",
+            "If the worker is off work, he/she is not working."
+        ],
+        "humans_discussion": [
+            "Human1: The worker is either working now, or he/she finished working. That's why I chose contradiction.",
+            "Human2: Since it is \"working\", not \"is working\", doesn't it necessarily refer to whether or not you are working right now?",
+            "Human1: However, the premise without \"is\" is not a full sentence. That's why I assumed \"is\" should be there, so it is a present continuous tense.",
+            "Human2: Indeed, you are right."
+        ],
+        "human_system_discussion": []
+    },
+    {
+        "premise": "A nun is taking a picture outside.",
+        "hypothesis": "A nun is taking a selfie.",
+        "human1_label": "entailment",
+        "human2_label": "neutral",
+        "human_label": "neutral",
+        "gold_label": "neutral",
+        "system_label": "entailment",
+        "explanation": [
+            "Answer : Just because the nun is taking picture outside it doesn't mean she is taking selfie.",
+            "A selfie is not the only kind of picture a nun could be taking outside.",
+            "Not all pictures are a selfie."
+        ],
+        "humans_discussion": [
+            "Human1: I think it is entailment, because the nun is taking a picture, so it might be a selfie.",
+            "Human2: Since it is outside, it is conceivable that the nun is taking some scenery.",
+            "Human1: I think that is true. You are right."
+        ],
+        "human_system_discussion": []
+    },
+    {
+        "premise": "Row of plastic horses that form a childrens ride with one child riding",
+        "hypothesis": "the ride is broken",
+        "human1_label": "contradiction",
+        "human2_label": "neutral",
+        "human_label": "contradiction",
+        "gold_label": "contradiction",
+        "system_label": "neutral",
+        "explanation": [
+            "A child can not be riding a broken ride.",
+            "The child cannot ride while the ride is broken.",
+            "a child will not be riding in a broken carousel"
+        ],
+        "humans_discussion": [
+            "Human1: It must be contradiction, because premise ends with \"riding\". That means the ride is not broken.",
+            "Human2: If it's broken, you can still ride it, right?",
+            "Human1: Then, it should be \"sitting\", not \"riding\".",
+            "Human2: It can work even if is is broken.",
+            "Human1: But it says \"the ride\" which is broken. Therefore, it can be considered the whole ride is broken and is not moving.",
+            "Human2: It certainly is. The whole thing can be considered broken."
+        ],
+        "human_system_discussion": []
+    },
+    {
+        "premise": "Two black dogs run along the green grass.",
+        "hypothesis": "Two dogs sit in their pen.",
+        "human1_label": "contradiction",
+        "human2_label": "neutral",
+        "human_label": "contradiction",
+        "gold_label": "contradiction",
+        "system_label": "neutral",
+        "explanation": [
+            "The dogs can't both sit in their pen and run along the green grass at the same time.",
+            "RUN AND SIT ARE REVERSE ACTIONS,Two black dogs",
+            "Dogs cannot run and sit at the same time."
+        ],
+        "humans_discussion": [
+            "Human1: It must be the same dogs, but they either can sit in their pen or run along the grass, that's why I chose contradiction.",
+            "Human2: I was thinking about the pen being very large and having grass in it.",
+            "Human1: But in general cases, pens are not that big to run inside.",
+            "Human2: I think you are right."
+        ],
+        "human_system_discussion": []
+    },
+    {
+        "premise": "Four people in a kitchen",
+        "hypothesis": "Four people in a barn working on a car.",
+        "human1_label": "contradiction",
+        "human2_label": "neutral",
+        "human_label": "contradiction",
+        "gold_label": "contradiction",
+        "system_label": "neutral",
+        "explanation": [
+            "The kitchen is different from the barn.",
+            "The people are either in a barn or in a kitchen.",
+            "A barn and a kitchen are not the same."
+        ],
+        "humans_discussion": [
+            "Human2: I think neutral, because there may be a kitchen in the barn.",
+            "Human1: Generally, there are no cars in the kitchen, right?",
+            "Human2: That is also right. But what about the possibility of being in the kitchen of the camper in the barn?",
+            "Human1: I would write it explicitly as a camper, not as a car, because a camper is not a common vehicle.",
+            "Human2: That is certainly true.  Let's make it a contradiction."
+        ],
+        "human_system_discussion": []
+    }
+]

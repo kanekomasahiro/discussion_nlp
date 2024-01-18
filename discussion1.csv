@@ -1,0 +1,111 @@
+﻿ID,DA,Evidence,Speaker,Utterance
+1,0,-,Input,Premise: A man and his two sons purchase food. Hypothesis: They are shopping. Human1: entailment Human2: neutral
+1,1,TRUE,Human2,"Um, yeah, I guess for number one, uh, I wasn't like really sure. I thought like they could be grocery shopping or they could also like, um, be eating at a restaurant, but I'm not sure if eating it as a restaurant is also called shopping. So let's hope it neutral."
+1,2,TRUE,Human1,"Yeah, for me, I just saw that they were buying food, uh, purchasing food. So I also wasn't sure if like you use purchasing food at a restaurant, but I was like, okay, they're purchasing foods from the other grocery. So vocabulary, I don't know. So I just chose entailment, but I think, I think neutral is better."
+1,3,TRUE,Human2,"Yeah. I think it depends on what people might call shopping, but yeah."
+1,4,Unrelated,Human1,Yeah.
+1,5,Unrelated,Human2,"Um, should we change the label on the spreadsheet?"
+1,6,Unrelated,Human1,"I think so, cause yeah, he said something like we're supposed to agree."
+1,7,Unrelated,Human2,Okay.
+1,-,-,Output,Predict: neutral
+2,0,-,Input,Premise: A man is standing at a machine. Hypothesis: A man is standing by a machine. Human1: neutral Human2: entailment
+2,1,FALSE,Human2,"Um, the next one, uh, Oh, I just thought, uh, standing at a machine and standing by a machine might be the same thing, but I don't know, uh, the, uh"
+2,2,TRUE,Human1,"I chose neutral cause, uh, I don't know, like at and by a bit confusing cause like, I was trying to think about like, what's standing at a machine right to me, like you're standing on top of a machine by a machine is like besides a machine. a machine is like besides a machine. So that way, like, I was like, okay, I don't know, cause, um, they might not be the exact same thing. So I said neutral."
+2,3,TRUE,Human2,"Yeah. I think maybe neutral, cause I just thought like a vending machine or something, but then you could even have like smaller machines, I guess. So you could be like standing by the machine, but not at it."
+2,4,TRUE,Human1,"Yeah, so if you think of something like a weighing scale as a machine, you know, something like that, you could stand by it or like on top of it or something like that."
+2,5,Unrelated,Human2,Yeah. I guess so.
+2,6,Unrelated,Human1,Yeah.
+2,-,-,Output,Predict: neutral
+3,0,-,Input,Premise: A dog running in the sand. Hypothesis: A dog is running outside at the beach. Human1: entailment Human2: neutral
+3,1,TRUE,Human2,"Um, for number three, oh, I just put neutral cause, uh, it could just be running on some sand, uh, but not at the beach. Like just some like sand, sand pit or something."
+3,2,Unrelated,Human1,Oh yeah. Yeah. Yeah. That's true. True.
+3,3,-,Human2,I feel like we're going to change all of them to neutral.
+3,-,-,Output,Label: neutral
+4,0,-,Input,Premise: A woman in an orange shirt is enjoying food in a public setting. Hypothesis: the lady is ice skating Human1: contradiction Human2: neutral
+4,1,FALSE,Human1,"And number four, a woman in a, in an orange shirt is enjoying food in a public setting and the lady is ice skating. Wow, I've never been to an ice skating place. I don't know if people can eat while they ice skate."
+4,2,FALSE,Human2,"Um, yeah, I think so. Like you probably couldn't eat like, uh, it depends, but you can definitely eat like a hot dog or something or like something you can hold in one hand. Uh, yeah. I think like you could, but it's maybe a bit weird. Yeah."
+4,3,TRUE,Human1,"Yeah. I guess that's why you just contradiction cause like, uh, you can't be ice skating while eating, but I guess you could."
+4,4,Unrelated,Human2,"Yeah, maybe."
+4,5,Unrelated,Human1,Yeah. So I think neutral.
+4,-,-,Output,Predict: neutral
+5,0,-,Input,Premise: Young girl playing with chocolate milk powder. Hypothesis: The girl is a grandparent Human1: contradiction Human2: neutral
+5,1,FALSE,Human2,"Um, the next one, young girl playing with chocolate milk powder and the girl is a grandparent. Uh, I feel like, yeah, I don't know, can a girl be a grandparent? I was trying to think like, maybe it's technically possible, but I don't know. Maybe not."
+5,2,TRUE,Human1,"Yeah. I don't know. I just find it's like a contradiction, I think, cause like, if you're a young girl, you could be a parent, but a grandparent is like, far away, like for you to be like, let's say you had a kid when you're 10 and then your kid has a kid when they're 10, but they tell you to become a grandparent when you're like 20 years, at least 20 years old and above. So that's what I was like."
+5,3,Unrelated,Human2,"Yeah, that's true."
+5,4,TRUE,Human1,Unless this person is having kids at four there is no way they are grandparent
+5,5,Unrelated,Human2,So contradiction I think
+5,-,-,Output,Predict: contradiction
+6,0,-,Input,"Premise: Beautiful young dancer performing dressed in white and silver performs an acrobatic, ballet, hula-hoop, dance routine while 4 female observers look on. Hypothesis: The young dancers are performing in front of people. Human1: entailment Human2: neutral"
+6,1,FALSE,Human2,"So this one was very like, I don't know if this was what they meant, but I just saw the only like, uh, it says like four female observers are looking on. So like they're performing in front of people, but the premise says beautiful young dancer and like only one, but like the hypothesis is the young dancers. So that's the only thing that caused me to put neutral, but I'm not sure if that's just a typo."
+6,2,TRUE,Human1,"Yeah. I looked up acrobatic and then it says that you can only perform acrobatics in like, it's a team sport, so you can't do it alone. So even though they didn't mention like the person's partner, because like it's a game of like two people and more, so there are dancers. That's like what made me choose like Intelment because I was like, okay, I also saw the dancers thing and they only mentioned the girl, then it looked up like, can you do acrobatics alone? And then like what I saw online is that it's a team sport, so you can't dance, do an acrobatic dance alone."
+6,3,Unrelated,Human2,Oh yeah. That makes sense. So let's put Intelment then.
+6,-,-,Output,Predict: entailment
+7,0,-,Input,Premise: A snowboarder jumps high into the air off of a snowy ramp. Hypothesis: Snowboarder decides to put snowshoes on and hop around in the snow. Human1: entailment Human2: contradiction
+7,1,TRUE,Human2,"The snowboarder jumps high into the air off a ramp and decides to put snowshoes on. I put contradiction because you can't, I guess you can't be like, I guess I assumed to, yeah, he's snowboarding, but you can't like snowboard and put snowshoe at the same time."
+7,2,FALSE,Human1,"I don't know why I chose Intelment is like, I was assuming the snowboarder was not jumping barefoot. They had, they put on shoes, snowshoes, I was thinking like you can't be walking on like snow or ice without shoes. So before they jump, they had to decide that they're going to put on shoes and proceed with that. So that's what I thought."
+7,3,TRUE,Human2,"Oh yeah. A snowshoes are actually something different. So they're not like normal shoes. They're like, they look like tennis rackets, but you strap the tennis rackets onto your feet. So they're, they're used for like a hiking in the snow, like in the snow. But yeah."
+7,4,TRUE,Human1,Snowboarding is different.
+7,5,TRUE,Human2,"Yeah. So snowboarding is you have a long board and then you just, you strap yourself to the board, but you can't really strap yourself to like the board and the snowshoes at the same time."
+7,6,Unrelated,Human1,Okay. Makes sense. I don't know anything to do with skating and snow. We don't have snow.
+7,7,Unrelated,Human2,"We just got some like wintery ones, but yeah."
+7,8,Unrelated,Human1,Yeah.
+7,9,Unrelated,Human2,I think the contradiction.
+7,-,-,Output,Predict: contradiction
+8,0,-,Input,Premise: A soldier is holding a gun and crouched down with is mouth covered by a cloth. Hypothesis: A man is holding a gun. Human1: neutral Human2: entailment
+8,1,FALSE,Human2,"The soldier is holding a gun and crouched down with, oh, I think I put entailment because where it says his mouth, like Aya's mouth. I thought that was trying to say his mouth. So I thought the soldier was a man, but I don't know if that's also a typo."
+8,2,TRUE,Human1,"I mean, somebody could use the pronoun his, but do they identify as a man?"
+8,3,TRUE,Human2,"Hmm. Yeah. That's true. I guess with his mouth, I guess, cause the his might be like a third person view. Um, yeah, we could put neutral for that one."
+8,4,TRUE,Human1,"Yeah. Cause I was like, um, like the is, which was looking like a typo for me, it wasn't enough to convince me that it's a man. So I was just like, okay, it could be a man or a woman or, oh yeah."
+8,-,-,Output,Predict: neutral
+9,0,-,Input,Premise: A downtown shot of a man on his cellphone under an awning. Hypothesis: A golfer swings his club at the ball while his friends laugh. Human1: contradiction Human2: neutral
+9,1,FALSE,Human2,"A downtown shot of a man on his cell phone under an awning, a golfer swings his club at the ball while his friends laugh. Um, yeah, for this one, I put neutral because I guess I didn't assume that that man was the golfer. I kind of pictured, like, I kind of pictured like one man's on his cell phone and then like another golfer is like, uh, swinging the club. So I don't, I don't know. Did you think the golfer was like the same person?"
+9,2,Unrelated,Human1,"Um, yeah, this is a bit confusing."
+9,3,Unrelated,Human2,Yeah.
+9,4,TRUE,Human1,"Yeah. The golfer swings his ball, okay. The reason why you put contradiction, what's an awning?"
+9,5,TRUE,Human2,"Oh, it's like, um, it's like the edge of a roof, but it's like outside."
+9,6,TRUE,Human1,"So I think, cause I saw the, the, the man, I don't know, so this is like a picture, right? A picture of a man on his cell phone. So it's probably talking or browsing whatever he's doing on this one. And then a golfer swings his club at the ball with his, while his friends laugh. So I was like, yeah, if you're on your phone, you probably won't be the same person with this this golfer. "
+9,7,FALSE,Human2,"Yeah. I was a bit confused for this one too, because I kind of pictured it as like one scene of golf, they're at a golf course and one man is like playing golf and another is like talking on his cell phone, but I don't know if like premise and hypothesis always means that it's like the same person."
+9,8,TRUE,Human1,"I'm referring to, yeah, that's, I'm not sure, I think it's neutral will work, because, yeah,"
+9,9,Unrelated,Human2,I'm not really sure. Neutral or contradiction?
+9,10,TRUE,Human1,"Yeah, but I don't know if it's neutral or contradiction. And then like the mentioning of friends laughing, they don't even mention other people on the other side."
+9,11,TRUE,Human2,"Yeah, that's true. Maybe let's do contradiction, because maybe it's, I think, I feel like this is supposed to be direct, right? Like they probably don't want you to think when they heard about it."
+9,-,-,Output,Predict: contradiction
+10,0,-,Input,Premise: A young girl holding a stuffed pig smiles. Hypothesis: A young girl holds her stuffed bear. Human1: contradiction Human2: neutral
+10,1,TRUE,Human2,"Okay. For number 10, I put neutral because, oh, I guess it's pretty simple. I just thought she could be holding a stuffed pig and a stuffed bear at the same time, so."
+10,2,Unrelated,Human1,Oh. Okay. Yeah. Yeah. I guess.
+10,3,Unrelated,Human2,"Yeah. Maybe neutral. Yeah, I was kind of confused, some of them, like, I don't know."
+10,4,FALSE,Human1,"I was thinking this in terms of like, if you're trying to describe like an image, for example, a picture, like trying to caption it, I put contradictions, like, oh, you're just going to describe the only thing, like, or the thing that stands out that they're holding. So I was like, okay, stuffed pig, they're smiling. And the other side is like a stuffed bear. So I was thinking in terms of like, oh, somebody might have confused the pig for, I don't know if pigs look like bears."
+10,5,TRUE,Human2,"I guess not really, but yeah, I don't know. I think for me, I thought of it a bit differently, which might be why we labeled things differently because I thought if it was like, if like the premise is true, does that mean anything about the hypothesis? But I didn't think of anybody trying to like describe an image. I just thought of like, like, generally, if this is like happening."
+10,6,TRUE,Human1,"if this is true, it doesn't mean the other is true, I think neutral is, yeah."
+10,7,Unrelated,Human2,Yeah. I don't remember how this data set was like made though.
+10,-,-,Output,Predict: neutral
+11,0,-,Input,"Premise: Three women, two wearing red shirts and one wearing a purple shirt, and a man, wearing a light blue shirt, jump on a basketball court with balls in their hands. Hypothesis: Some people's are playing basketball in basketball court Human1: entailment Human2: neutral"
+11,1,FALSE,Human2,"So yeah, yeah, I think like, I like had a similar, like similar thought for like the next one. I thought like they could be like on a basketball court and like they're jumping with balls in their hands, but not playing basketball. I don't know, maybe that's too like far-fetched as well, so."
+11,2,TRUE,Human1,So they could just be holding balls in their basketball court.
+11,3,FALSE,Human2,"Yeah, they could be like practicing or something because I don't know, in gym class, we like, we just all practice like shooting the basketball in, but we're not like playing basketball, if that makes sense."
+11,4,TRUE,Human1,"Playing and practicing is different. I guess like for me, how I think about playing, it's the same thing. I look at practicing versus like competing, it's like different, that's why I distinguish like, okay, if you're one team against another, like you guys are competing against each other, but if you're practicing, it's like you're just trying to, whatever, develop your skills, but it's all playing, both of them are playing, they just have different goals."
+11,5,TRUE,Human2,"Yeah. I think this one is a bit far-fetched to be neutral, actually, let's do entailment. Yeah. Oh, just cause I thought like when I was like practicing basketball, it's kind of like, you're kind of only doing like one part of the game. So it's not, there's like no rules or anything. It's just kind of like, you just like do that one like movement, but I don't know."
+11,6,Unrelated,Human1,"Yeah, I'm really not sure I spot entailment over neutral."
+11,-,-,Output,Predict: entailment
+12,0,-,Input,"Premise: A man in a green, black, and white spandex sports uniform is riding a bike. Hypothesis: A guy isn't afraid to fall down and spoiled his bright uniform. Human1: entailment Human2: neutral"
+12,1,TRUE,Human2,"I wrote a guy, I wrote like neutral for the next one too, cause I thought, I guess the guy is wearing like a colorful uniform, but I don't know if that means he isn't afraid to fall down and spoil it. He could just be like wearing it, but he's still like a bit afraid to fall down."
+12,2,FALSE,Human1,"So yeah, I agree with you, but how I thought about it was like, I mean, if you're a biker, you always know there's that possibility of you going to fall down, there's always that chance. So it's like, you've already accepted that, Hey, there's a chance of going to fall down. You're not scared of falling down. You're just like, okay, that's a risk that comes with like biking. So that's how I was thinking about it."
+12,3,Unrelated,Human2,Yeah.
+12,4,TRUE,Human1,"But I guess like, I think it's better to say you're not extremely scared. Yes, willing to take the chance, but that doesn't mean you're not afraid."
+12,5,TRUE,Human2,"Yeah. I guess I was just thinking that like, we, I guess if I'm just like told that like this guy is like riding a bike in his bright uniform, like, I think that doesn't really like tell me like what his emotions are at that point. So that's why I put neutral."
+12,6,FALSE,Human1,"Okay. I'm not saying, Oh, I, I chose contradiction because how I think of like holding on to it."
+12,7,Unrelated,Human2,Yeah. Sorry. Do we agree on the last one yet? Sorry.
+12,8,Unrelated,Human1,"Yeah. Oh, sorry."
+12,9,Unrelated,Human2,Do we agree on the last one yet?
+12,10,Unrelated,Human1,Which one? Talk neutral.
+12,11,Unrelated,Human2,OK. Sure. Yeah.
+12,12,Unrelated,Human1,Cause it doesn't say.
+12,-,-,Output,Predict: neutral
+13,0,-,Input,Premise: Someone holding a bag of oranges walking outside. Hypothesis: Someone is juggling oranges Human1: contradiction Human2: neutral
+13,1,TRUE,Human1,"And yeah, I was saying for 13, I chose contradiction because like, I see holding as just like holding and not doing anything. You just like basically holding, and then juggling is the whole like throwing it out and doing all those like fancy stuff with like the oranges. So I was like, Hey, at the same time, there's no way you could be holding them and also throwing them out."
+13,2,Unrelated,Human2,Yeah. I agree.
+13,3,Unrelated,Human1,Contradiction.
+13,4,Unrelated,Human2,"Yeah. I'm not sure why I put neutral. Like I think maybe I was just like overly, yeah, I think it should be contradiction."
+13,5,Unrelated,Human1,Okay.
+13,6,Unrelated,Human2,Okay. Cool. So it looks like we did all of them.
+13,-,-,Output,Predict: contradiction

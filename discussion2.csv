@@ -1,0 +1,134 @@
+﻿ID,Number,Evidence,Speaker,Utterance
+1,0,-,Input,"Premise: A black man, wearing a cap, is sitting in a bus. Hypothesis: A man is traveling on public transportation. Human1: neutral Human2: entailment"
+1,1,Unrelated,Human2,Okay. So let's get started.
+1,2,Unrelated,Human1,Okay. So do you want to? 
+1,3,Unrelated,Human2,Yes.
+1,4,Unrelated,Human1,Sure.
+1,5,TRUE,Human2,"So I think the reason why I annotated as entailment is I think because the man is seating on the bus, so the bus is used for public transportations. They don't sit there for fun. Yeah."
+1,6,FALSE,Human1,"I assumed that bus may not always be public transportation, like you can own a bus or something. So yeah, it's probably overthinking."
+1,7,TRUE,Human2,"Yeah, I think I also have similar problems when I'm thinking about corner cases. It seems like it can't always be like false, so I think it was talked about like more general or like, I don't know, like more general cases. Yeah, it can be the entitlement. Yeah, I think."
+1,8,TRUE,Human1,"Yeah. I mean, we usually talk of bus in the context of public transportation. Yeah, maybe it can be."
+1,9,Unrelated,Human2,"Okay, so let's do that as in common."
+1,-,-,Output,Predict: entailment
+2,0,-,Input,Premise: Two boys are holding red kites with water in the background. Hypothesis: Persons are involved in outdoor recreation. Human1: neutral Human2: entailment
+2,1,TRUE,Human1,"I assume that. Yeah, this can be like several things. So like people do have pools inside their homes and stuff like that. So it's not necessary that it's outdoor. And that's why I kind of."
+2,2,Unrelated,Human2,I see.
+2,3,FALSE,Human1,Or it can also mean that there's a painting and there's water or something like that.
+2,4,TRUE,Human2,"I think you're right. Though originally I thought like water in the background was like in their backyard or something. That was like my thoughts. But yeah, I agree that water. Like, yeah, holding a racquet and with water doesn't necessarily infer it's outdoor activity. Yeah. Yeah. Okay."
+2,-,-,Output,Predict: neutral
+3,0,-,Input,Premise: A man in a leather jacket with the collar popped kisses the neck of a woman in a gray coat wearing a white scarf. Hypothesis: a couple are reunited Human1: entailment Human2: neutral
+3,1,TRUE,Human1,"The third one, I wrote entailment, I assumed the description. I thought they might just be it is not necessary like a reunited."
+3,2,Unrelated,Human2,"Oh, yeah. Yeah. Yeah. Yeah. I thought they might just be it is not necessary like a reunited."
+3,3,Unrelated,Human1,"That's right. Yeah. Yeah. I just I mean, yeah."
+3,-,-,Output,Predict: entailment
+4,0,-,Input,Premise: A man in a bar drinks from a pitcher while a man in a green hat looks on and a woman in a black shirt drink from a glass. Hypothesis: A women in black drinks. Human1: entailment Human2: neutral
+4,1,TRUE,Human2,"I think the problem I had was it doesn't say the woman is in black drink, right? It only has this black shirt. Yeah. I was confused about this, because I didn't understand what is the black drink? "
+4,2,Unrelated,Human1,Yeah. Yeah. 
+4,3,FALSE,Human2,"Yeah. I was confused about this, because I didn't understand what is the black drink? "
+4,4,TRUE,Human1,Woman in a black drink?
+4,5,FALSE,Human2,"Yeah. Maybe that's a typo. That is a woman in black shirt. Yeah, because it only says the woman in black shirt drink from a glass doesn't
+say like a black drink. This was a weird case."
+4,6,TRUE,Human1,The woman in a black drinks. Not drink. 
+4,7,Unrelated,Human2,"Okay, you're right. Yeah. Okay. Okay. Yeah. Yeah. That's my way of mistake and parsing of the sentence. You're right. You're right. Yeah. Okay."
+4,-,-,Output,Predict: entailment
+5,0,-,Input,Premise: A man is standing in the aisle of a grocery store and staring at the cereal selection. Hypothesis: A man is selecting cereal in a grocery store. Human1: neutral Human2: entailment
+5,1,TRUE,Human1,Okay. For this I was I probably I thought that if he was staring does not mean he's selecting.
+5,2,TRUE,Human2,"I think when I was annotating this, I have the similar feeling. And because you end up as neutral, I would actually like tend to actually also annotate as neutral.  Yes. Yeah, because staring at the section that means it's selecting something probably just thinking about something else, right? "
+5,3,TRUE,Human1,"Yeah, probably. He's just like, yeah, he's just looking at some serious because he seems a lot or something like that."
+5,4,Unrelated,Human2,Right. Maybe he's hungry.
+5,5,Unrelated,Human1,Yeah. That's most probable of them all.
+5,-,-,Output,Predict: neutral
+6,0,-,Input,Premise: The little girl in yellow is touching the dad who has shaving cream on his face. Hypothesis: A little girl is shaving her fathers head Human1: neutral Human2: contradiction
+6,1,FALSE,Human2,Okay. So I guess the reason why I annotated as contradiction is because the girl is touching her dad. So she is not like shaving.
+6,2,TRUE,Human1,"Yeah, makes sense. I just thought, I just couldn't find a relation. I thought anything is possible. "
+6,3,TRUE,Human2,"Yeah, maybe she can like touch channels."
+6,4,Unrelated,Human1,Yeah. Yeah.
+6,5,TRUE,Human2,"Yeah, I think you are right. It doesn't indicate the like, it doesn't rule out the possibility of she's shaving."
+6,6,TRUE,Human1,"I mean, I think while shaving should anyway need to touch."
+6,7,TRUE,Human2,"Yeah, like, yeah, like, maybe just fix the, like the hand position. Yeah, makes sense. Because people have two hands, they can do this. Yeah, makes sense. Yeah. Right. "
+6,-,-,Output,Predict: neutral
+7,0,-,Input,Premise: Football player jumping to catch the ball with an empty stand behind him. Hypothesis: The football player catches the ball. Human1: neutral Human2: entailment
+7,1,Unrelated,Human2,Let's tackle the next case.
+7,2,TRUE,Human1,"Okay, so here I thought he jumps to catch, he might miss it. So it's unnecessary that he catches the ball."
+7,3,TRUE,Human2,"Okay, so jump to jump into catch. So to catch is like a purpose, but doesn't indicate the result. Yeah, that's okay. Yeah, that makes sense. I think that was probably due to my understanding of the sentence itself. If like you interpret it in this way, I'm gonna agree. I thought this sentence was trying to describe a result like jump to catch. So basically it described both jump and the both, both jump and catch. But I think you're right, it just indicates the purpose."
+7,4,TRUE,Human1,"Jumping to catch. Yeah, I think it's not very indicative of whether he actually caught it."
+7,5,Unrelated,Human2,"Yeah, yeah. Right."
+7,6,TRUE,Human1,I found a lot of neutrals probably because I was just thinking of giving me edge cases. 
+7,7,Unrelated,Human2,"That no, I mean, like, that's a good thing. Like, okay, that's unrelated. We can talk about that later."
+7,8,Unrelated,Human1,Yeah. Amazing. 
+7,-,-,Output,Predict: neutral
+8,0,-,Input,Premise: A man is cooking pies in the oven. Hypothesis: The oven has turkeys in it. Human1: neutral Human2: contradiction
+8,1,Unrelated,Human2,So here
+8,2,TRUE,Human1,I imagined a very big oven.
+8,3,Unrelated,Human2,"Yeah. Right, right, right, right."
+8,4,TRUE,Human1," So I don't know if people can actually do that, because I don't use an oven."
+8,5,TRUE,Human2,"Basically, we can have like multiple layers in the oven, right? You can still do anything, everything. Yeah. I think I had a couple of annotations when I wrote them. I have the similar feeling, but I tend to just use like, which is the more, more likely scenario. Then, yeah, but I think after discussion, I'm more convinced that it should be like neutral. Yeah."
+8,6,TRUE,Human1,"Yeah. I always go for neutral because I think this might be entailment. So again, I just"
+8,7,TRUE,Human2,Think about corner cases. yeah
+8,-,-,Output,Predict: neutral
+9,0,-,Input,Premise: A group of young soccer players run down the field after the ball. Hypothesis: A group of people play soccer. Human1: neutral Human2: entailment
+9,1,TRUE,Human1,"Yeah. I always go for neutral because I think this might be entailment. So again, I just"
+9,2,TRUE,Human2,"yeah, unless the ball is not a like a real soccer ball, it can be like others."
+9,3,TRUE,Human1,"Yeah, it can be any ball and they can probably be running to just like, get the ball, like it's probably gone somewhere. I mean, they were playing something, the ball went somewhere and they just went to catch it. I mean, from the field or something."
+9,4,TRUE,Human2,"Yeah. I think the reason is, it says like young soccer players are choosing after the ball."
+9,5,TRUE,Human1,"Yeah. Yeah. It can be an entailment because after the ball, yeah. So here we are making, if it's an entailment, we are also making the assumption that it's a soccer ball."
+9,6,Unrelated,Human2,Yes.
+9,7,TRUE,Human1,And the field is a soccer field. It can be a cricket field and a cricket ball.
+9,8,Unrelated,Human2,"I agree with your case, actually. Okay. I'm persuaded."
+9,-,-,Output,Predict: neutral
+10,0,-,Input,Premise: A man in a white shirt is standing in a T-shirt booth. Hypothesis: A man in a black shirt getting a tattoo. Human1: contradiction Human2: neutral
+10,1,-,Human1,Okay. What is this? 
+10,2,FALSE,Human1,"Yeah. don't know. Yeah, because these are two men."
+10,3,TRUE,Human2,It's not the man.
+10,4,TRUE,Human1,Yeah. Yeah. I think it should be neutral because it can be different men.
+10,-,-,Output,Predict: neutral
+11,0,-,Input,Premise: The dog is walking in the snow. Hypothesis: The dog is cold Human1: neutral Human2: entailment
+11,1,TRUE,Human2,"Okay. I think it's neutral. Yeah, because it can be like sunlight."
+11,2,Unrelated,Human1,Yeah. Yeah. Right.
+11,3,TRUE,Human2,Not necessarily for like a rain. It can also be for something just for fun.
+11,4,Unrelated,Human1,Okay. So you're about this.
+11,5,Unrelated,Human2,"Yeah, you go ahead. "
+11,6,TRUE,Human1,"There are plenty of dogs with very thick fur, right? So if they are immune to like cold weather or the snow cold weather."
+11,7,TRUE,Human2,Yeah. Yeah. Yeah. Yeah. There are some dogs that can actually survive the cold weathers or like they can wear clothes. Right.
+11,8,TRUE,Human1,Yeah. Some of them have very thick fur. They aren't necessarily cold in this room. Yeah.
+11,9,TRUE,Human2,Yeah. Makes sense. Yeah. And also the snow doesn't imply the temperature is low. It can be like the snow is melting. 
+11,10,Unrelated,Human1,That's great.
+11,-,-,Output,Predict: neutral
+12,0,-,Input,Premise: A dune buggy traveling on sand. Hypothesis: A vehicle travels outdoors. Human1: neutral Human2: entailment
+12,1,FALSE,Human2,Yeah. I guess maybe similar to sand is not necessary outdoor thing. But because is it the case? 
+12,2,FALSE,Human1,I think that that was my thinking. Yeah.
+12,3,TRUE,Human2,"Yeah. I think. Right. Right. Because it's on sand. I would assume like it's very, very sandy place with a lot of sand. So it's likely to be outdoor. Right. Okay."
+12,4,Unrelated,Human1,Okay. That make sense. I think we should do entailment.
+12,5,Unrelated,Human2,Yeah. 
+12,-,-,Output,Predict: entailment
+13,0,-,Input,Premise: A man in a hat and jacket standing on the sidewalk with a pile of trash in front of him. Hypothesis: The man in the hat is standing in the middle of the street. Human1: contradiction Human2: neutral
+13,1,TRUE,Human1,One is sidewalk and the other is in the middle of the street. So.
+13,2,TRUE,Human2,Yeah. Yeah. I miss that. You're right. Because I think the reason was I miss the word of sidewalk. Sidewalk. Yeah. Yeah. I thought it just like in front of a pile of trash and I thought trash doesn't imply it is it is in the middle of the road or something.
+13,-,-,Output,Predict: contradiction
+14,0,-,Input,Premise: Two dogs sit in front of a man dressed in native American attire. Hypothesis: Dogs are sitting close to the man. Human1: neutral Human2: entailment
+14,1,TRUE,Human2,"Yeah. I think my interpretation of in front of is close. Like I talk to a person in front of another person. If like if like 10 meters away, I won't say it's in front of me. "
+14,2,FALSE,Human1,"Yeah. I think it's probably I mean, you might have guessed, but I was just thinking that front just means like in front. But yeah, that doesn't necessarily indicate distance. Right. If you think of why a person would like from a pragmatics point of view, like why a Human would say two dogs sit in front of a man."
+14,3,Unrelated,Human2,Yeah.
+14,4,TRUE,Human1,It probably indicates that they are close to the man.
+14,5,TRUE,Human2,"Yeah. That's my interpretation. Because I won't say like say Grammy is in front of me, even though like Grammy is actually in the in the front direction of me."
+14,6,TRUE,Human1,"Yeah. And if there was something closer than the man in Native American attire, the Human would have mentioned that. Like they would have said two dogs sit in front of say a car or something. If the car was closer to the dogs than the man. Yeah. So it's all relative. Like the closest thing to the dogs might be the man. Yeah. Yeah. I think we should go with that."
+14,7,Unrelated,Human2,Yeah.
+14,8,Unrelated,Human1,Okay.
+14,-,-,Output,Predict: entailment
+15,0,-,Input,Premise: A baseball pitcher wearing a purple and white uniform throwing a baseball from the mound. Hypothesis: A guy is chilling at home. Human1: contradiction Human2: neutral
+15,1,Unrelated,Human1,This is neutral. I think.
+15,2,TRUE,Human2,Yeah. Because I think the guy is not necessarily. Yeah.
+15,3,Unrelated,Human1,Yeah.
+15,-,-,Output,Predict: neutral
+16,0,-,Input,Premise: The man is walking the bride down the aisle. Hypothesis: A man is hitting his wife. Human1: neutral Human2: contradiction
+16,1,Unrelated,Human1,I think. It's again. 
+16,2,TRUE,Human2,Okay. So you think the man is not the same man as the man. Right.
+16,3,Unrelated,Human1,Yeah.
+16,4,Unrelated,Human2,Yeah.
+16,5,TRUE,Human1,"And because if they would have written a man is blocking the blind down the island, the man is hitting his wife, then it's definitely controversial."
+16,6,TRUE,Human2,"Yeah. Yeah. Yeah. I agree. I just didn't tell the Nelson's difference before. But after your explanation, I think they don't necessarily be the same man. So it can be just the man walk his bride and then the other man hit the wife. Yeah."
+16,7,Unrelated,Human1,Yeah.
+16,8,Unrelated,Human2,Nice.
+16,9,Unrelated,Human1,We tend to go to neutral for most.
+16,10,Unrelated,Human2,"Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. I mean, like, this is a very interesting observation. I never worked on this data set before. And I guess I don't know what are the ground truth label for this example. That would be interesting."
+16,-,-,Output,Predict: neutral
