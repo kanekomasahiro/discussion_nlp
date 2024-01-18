@@ -9,4 +9,4 @@ python nli.py --input $nli_dataset_path --output $output_path --learning [zero-s
 
 ## Dataset
 
-discussion1.csv and discussion2.csv are validation datasets. We will publish the evaluation dataset when the paper is accepted.
+discussion1.csv and discussion2.csv are validation datasets.
