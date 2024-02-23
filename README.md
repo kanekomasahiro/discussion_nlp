@@ -1,5 +1,15 @@
 # Solving NLP Problems through Human-System Collaboration: A Discussion-based Approach
 
+If you use any part of this work, make sure you include the following citation:
+```
+@inproceedings{Kaneko:eacl:2024,
+    title={Solving NLP Problems through Human-System Collaboration: A Discussion-based Approach},
+    author={Kaneko, Masahiro and Neubig, Graham and Okazaki, Naoaki},
+    booktitle={EACL},
+    year={2024}
+}
+```
+
 
 ## Inference using the proposed method.
 
